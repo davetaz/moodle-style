@@ -1,0 +1,211 @@
+.odi-content {
+    // utility
+    //max-width:960px;
+    font-size: 16px;
+    line-height: 30px;
+    .lead {
+        font-weight: 600;
+        
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .right {
+        text-align: right;
+    }
+
+    .center {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .justify {
+        text-align: justify;
+    }
+
+    .hidden-sm {
+        display: none;
+    }
+
+    // grid
+/* 
+    $width: 100%;
+    $gutter: 4%;
+    $breakpoint-small: 33.75em; // 540px
+    $breakpoint-med: 45em; // 720px
+    $breakpoint-large: 60em; // 960px
+    .no-gutter {
+        $gutter:0;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media only screen and (min-width: $breakpoint-small) {
+            width: 80%;
+        }
+
+        @media only screen and (min-width: $breakpoint-large) {
+            width: 75%;
+            max-width: 60rem;
+        }
+    }
+
+    .row {
+        position: relative;
+        width: 100%;
+    }
+
+    .row [class^="col"] {
+        float: left;
+        margin: 0;
+        min-height: 0.125rem;
+    }
+
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        width: $width;
+    }
+
+    .col-1-sm {
+        width: calc($width / 12) - ($gutter * calc(11 / 12));
+    }
+
+    .col-2-sm {
+        width: calc($width / 6) - ($gutter * calc(10 / 12));
+    }
+
+    .col-3-sm {
+        width: calc($width / 4) - ($gutter * calc(9 / 12));
+    }
+
+    .col-4-sm {
+        width: calc($width / 3) - ($gutter * calc(8 / 12));
+    }
+
+    .col-5-sm {
+        width: calc($width / (12 / 5)) - calc($gutter * calc(7 / 12));
+    }
+
+    .col-6-sm {
+        width: calc($width / 2) - calc($gutter * calc(6 / 12));
+    }
+
+    .col-7-sm {
+        width: calc($width / calc(12 / 7)) - calc($gutter * calc(5 / 12));
+    }
+
+    .col-8-sm {
+        width: calc($width / calc(12 / 8)) - ($gutter * calc(4 / 12));
+    }
+
+    .col-9-sm {
+        width: calc($width / calc(12 / 9)) - calc($gutter * calc(3 / 12));
+    }
+
+    .col-10-sm {
+        width: calc($width / calc(12 / 10)) - ($gutter * calc(2 / 12));
+    }
+
+    .col-11-sm {
+        width: calc($width / calc(12 / 11)) - calc($gutter * calc(1 / 12));
+    }
+
+    .col-12-sm {
+        width: $width;
+    }
+
+    @media only screen and (min-width: $breakpoint-med) {
+        .col-1 {
+            width: calc($width / 12) - calc($gutter * calc(11 / 12));
+        }
+
+        .col-2 {
+            width: calc($width / 6) - calc($gutter * calc(10 / 12));
+        }
+
+        .col-3 {
+            width: calc($width / 4) - calc($gutter * calc(9 / 12));
+        }
+
+        .col-4 {
+            width: calc($width / 3) - calc($gutter * calc(8 / 12));
+        }
+
+        .col-5 {
+            width: calc($width / calc(12 / 5)) - calc($gutter * calc(7 / 12));
+        }
+
+        .col-6 {
+            width: calc($width / 2) - calc($gutter * calc(6 / 12));
+        }
+
+        .col-7 {
+            width: calc($width / calc(12 / 7)) - calc($gutter * calc(5 / 12));
+        }
+
+        .col-8 {
+            width: calc($width / calc(12 / 8)) - calc($gutter * calc(4 / 12));
+        }
+
+        .col-9 {
+            width: calc($width / calc(12 / 9)) - calc($gutter * calc(3 / 12));
+        }
+
+        .col-10 {
+            width: calc($width / calc(12 / 10)) - calc($gutter * calc(2 / 12));
+        }
+
+        .col-11 {
+            width: calc($width / calc(12 / 11)) - calc($gutter * calc(1 / 12));
+        }
+
+        .col-12 {
+            width: $width;
+        }
+
+        .hidden-sm {
+            display: block;
+        }
+
+
+    } */
+
+    // responsive embed
+    .responsive-wrapper-16by9 {
+        position: relative;
+        padding-bottom: 56.25%;
+        /* 16:9 */
+        height: 0;
+    }
+
+    .responsive-wrapper-16by9 iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border:0;
+    }
+}

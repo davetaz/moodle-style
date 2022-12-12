@@ -1,0 +1,14 @@
+.odi-content {
+    --spacer-main: 3rem;
+    --spacer-half: 1.5rem;
+    --padding-main: 1rem 1.8rem;
+}
+
+.spaced {
+    margin-top:var(--spacer-main);
+    margin-bottom: var(--spacer-main);
+}
+.spaced-half {
+    margin-top:var(--spacer-half);
+    margin-bottom: var(--spacer-half);
+}

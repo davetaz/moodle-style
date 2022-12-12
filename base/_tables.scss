@@ -1,0 +1,364 @@
+/**
+ * @author zhixin wen <wenzhixin2010@gmail.com>
+ * version: 1.21.1
+ * https://github.com/wenzhixin/bootstrap-table/
+ */
+.odi-content{
+    .odi-table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: var(--odi-color19);
+        border-collapse:collapse;
+        background-color: white;
+        }
+        
+        .odi-table th,
+        .odi-table td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid var(--odi-color18);
+        }
+        
+        .odi-table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid var(--odi-color18);
+        }
+        
+        .odi-table tbody + tbody {
+        border-top: 2px solid var(--odi-color18);
+        }
+        
+        .odi-table-sm th,
+        .odi-table-sm td {
+        padding: 0.3rem;
+        }
+        
+        .odi-table-bordered {
+        border: 1px solid var(--odi-mono2);
+        }
+        
+        .odi-table-bordered th,
+        .odi-table-bordered td {
+        border: 1px solid var(--odi-mono2);
+        }
+        
+        .odi-table-bordered thead th,
+        .odi-table-bordered thead td {
+        border-bottom-width: 2px;
+        }
+        
+        .odi-table-borderless th,
+        .odi-table-borderless td,
+        .odi-table-borderless thead th,
+        .odi-table-borderless tbody + tbody {
+        border: 0;
+        }
+        
+        .odi-table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(0, 0, 0, 0.05);
+        }
+        
+        .odi-table-hover tbody tr:hover {
+        //color: var(--odi-mono2);
+        background-color: rgba(0, 0, 0, 0.075);
+        }
+        
+        .odi-table-primary,
+        .odi-table-primary > th,
+        .odi-table-primary > td {
+        background-color: var(--odi-color1);
+        color: white;
+        }
+        
+        .odi-table-primary th,
+        .odi-table-primary td,
+        .odi-table-primary thead th,
+        .odi-table-primary tbody + tbody {
+        border-color: #7abaff;
+        }
+        
+        .odi-table-hover .odi-table-primary:hover {
+        background-color: #9fcdff;
+        }
+        
+        .odi-table-hover .odi-table-primary:hover > td,
+        .odi-table-hover .odi-table-primary:hover > th {
+        background-color: #9fcdff;
+        }
+        
+        .odi-table-secondary,
+        .odi-table-secondary > th,
+        .odi-table-secondary > td {
+        background-color: #d6d8db;
+        }
+        
+        .odi-table-secondary th,
+        .odi-table-secondary td,
+        .odi-table-secondary thead th,
+        .odi-table-secondary tbody + tbody {
+        border-color: #b3b7bb;
+        }
+        
+        .odi-table-hover .odi-table-secondary:hover {
+        background-color: #c8cbcf;
+        }
+        
+        .odi-table-hover .odi-table-secondary:hover > td,
+        .odi-table-hover .odi-table-secondary:hover > th {
+        background-color: #c8cbcf;
+        }
+        
+        .odi-table-success,
+        .odi-table-success > th,
+        .odi-table-success > td {
+        background-color: #c3e6cb;
+        }
+        
+        .odi-table-success th,
+        .odi-table-success td,
+        .odi-table-success thead th,
+        .odi-table-success tbody + tbody {
+        border-color: #8fd19e;
+        }
+        
+        .odi-table-hover .odi-table-success:hover {
+        background-color: #b1dfbb;
+        }
+        
+        .odi-table-hover .odi-table-success:hover > td,
+        .odi-table-hover .odi-table-success:hover > th {
+        background-color: #b1dfbb;
+        }
+        
+        .odi-table-info,
+        .odi-table-info > th,
+        .odi-table-info > td {
+        background-color: #bee5eb;
+        }
+        
+        .odi-table-info th,
+        .odi-table-info td,
+        .odi-table-info thead th,
+        .odi-table-info tbody + tbody {
+        border-color: #86cfda;
+        }
+        
+        .odi-table-hover .odi-table-info:hover {
+        background-color: #abdde5;
+        }
+        
+        .odi-table-hover .odi-table-info:hover > td,
+        .odi-table-hover .odi-table-info:hover > th {
+        background-color: #abdde5;
+        }
+        
+        .odi-table-warning,
+        .odi-table-warning > th,
+        .odi-table-warning > td {
+        background-color: #ffeeba;
+        }
+        
+        .odi-table-warning th,
+        .odi-table-warning td,
+        .odi-table-warning thead th,
+        .odi-table-warning tbody + tbody {
+        border-color: #ffdf7e;
+        }
+        
+        .odi-table-hover .odi-table-warning:hover {
+        background-color: #ffe8a1;
+        }
+        
+        .odi-table-hover .odi-table-warning:hover > td,
+        .odi-table-hover .odi-table-warning:hover > th {
+        background-color: #ffe8a1;
+        }
+        
+        .odi-table-danger,
+        .odi-table-danger > th,
+        .odi-table-danger > td {
+        background-color: #f5c6cb;
+        }
+        
+        .odi-table-danger th,
+        .odi-table-danger td,
+        .odi-table-danger thead th,
+        .odi-table-danger tbody + tbody {
+        border-color: #ed969e;
+        }
+        
+        .odi-table-hover .odi-table-danger:hover {
+        background-color: #f1b0b7;
+        }
+        
+        .odi-table-hover .odi-table-danger:hover > td,
+        .odi-table-hover .odi-table-danger:hover > th {
+        background-color: #f1b0b7;
+        }
+        
+        .odi-table-light,
+        .odi-table-light > th,
+        .odi-table-light > td {
+        background-color: #fdfdfe;
+        }
+        
+        .odi-table-light th,
+        .odi-table-light td,
+        .odi-table-light thead th,
+        .odi-table-light tbody + tbody {
+        border-color: #fbfcfc;
+        }
+        
+        .odi-table-hover .odi-table-light:hover {
+        background-color: #ececf6;
+        }
+        
+        .odi-table-hover .odi-table-light:hover > td,
+        .odi-table-hover .odi-table-light:hover > th {
+        background-color: #ececf6;
+        }
+        
+        .odi-table-dark,
+        .odi-table-dark > th,
+        .odi-table-dark > td {
+        background-color: #c6c8ca;
+        }
+        
+        .odi-table-dark th,
+        .odi-table-dark td,
+        .odi-table-dark thead th,
+        .odi-table-dark tbody + tbody {
+        border-color: #95999c;
+        }
+        
+        .odi-table-hover .odi-table-dark:hover {
+        background-color: #b9bbbe;
+        }
+        
+        .odi-table-hover .odi-table-dark:hover > td,
+        .odi-table-hover .odi-table-dark:hover > th {
+        background-color: #b9bbbe;
+        }
+        
+        .odi-table-active,
+        .odi-table-active > th,
+        .odi-table-active > td {
+        background-color: rgba(0, 0, 0, 0.075);
+        }
+        
+        .odi-table-hover .odi-table-active:hover {
+        background-color: rgba(0, 0, 0, 0.075);
+        }
+        
+        .odi-table-hover .odi-table-active:hover > td,
+        .odi-table-hover .odi-table-active:hover > th {
+        background-color: rgba(0, 0, 0, 0.075);
+        }
+        
+        .odi-table .thead-dark th {
+        color: #fff;
+        background-color: #343a40;
+        border-color: #454d55;
+        }
+        
+        .odi-table .thead-light th {
+        color: #495057;
+        background-color: #e9ecef;
+        border-color: var(--odi-mono2);
+        }
+        
+        .odi-table-dark {
+        color: #fff;
+        background-color: #343a40;
+        }
+        
+        .odi-table-dark th,
+        .odi-table-dark td,
+        .odi-table-dark thead th {
+        border-color: #454d55;
+        }
+        
+        .odi-table-dark.odi-table-bordered {
+        border: 0;
+        }
+        
+        .odi-table-dark.odi-table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(255, 255, 255, 0.05);
+        }
+        
+        .odi-table-dark.odi-table-hover tbody tr:hover {
+        color: #fff;
+        background-color: rgba(255, 255, 255, 0.075);
+        }
+        
+        @media (max-width: 575.98px) {
+        .odi-table-responsive-sm {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        }
+        .odi-table-responsive-sm > .odi-table-bordered {
+        border: 0;
+        }
+        }
+        
+        @media (max-width: 767.98px) {
+        .odi-table-responsive-md {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        }
+        .odi-table-responsive-md > .odi-table-bordered {
+        border: 0;
+        }
+        }
+        
+        @media (max-width: 991.98px) {
+        .odi-table-responsive-lg {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        }
+        .odi-table-responsive-lg > .odi-table-bordered {
+        border: 0;
+        }
+        }
+        
+        @media (max-width: 1199.98px) {
+        .odi-table-responsive-xl {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        }
+        .odi-table-responsive-xl > .odi-table-bordered {
+        border: 0;
+        }
+        }
+        
+        .odi-table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: var(--spacer-half) 0 var(--spacer-half) 0;
+        }
+        
+        .odi-table-responsive > .odi-table-bordered {
+        border: 0;
+        }
+        
+        .odi-table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        }
+        
+        .odi-table-responsive > .odi-table-bordered {
+        border: 0;
+        }
+    }

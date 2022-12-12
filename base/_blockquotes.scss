@@ -1,0 +1,18 @@
+.odi-content {
+
+    blockquote, .panel blockquote {
+        .quote-text {
+            padding-left: var(--spacer-main);
+            font-size: 125%;
+            font-style: italic;
+        }
+    }
+
+    cite {
+        display: block;
+        text-align: left;
+        margin: -2rem 0 0 3rem;
+        font-size: 80%;
+    }
+
+}

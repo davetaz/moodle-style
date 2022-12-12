@@ -1,0 +1,96 @@
+.odi-content {
+    .banner-img {
+        position: relative;
+        text-align: center;
+        color: white;
+        margin-bottom: var(--spacer-half);
+        padding:0;
+    }
+    .banner-img > h2 {
+        span {
+            background-color: #000000;
+            color: #ffffff;
+            font-weight: 200;
+            padding:1rem;
+            text-transform: uppercase;
+
+        }
+    }
+    .banner-img img {
+        width: 100%;
+        max-width: 100% !important;
+        border-radius: 2px;
+    }
+
+    .banner-img .bottom-left {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        padding: 0 1rem;
+    }
+
+    .banner-img .top-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0 1rem;
+        transform: translate(0,100%);
+    }
+
+    .banner-img .top-right {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        padding: 0 1rem;
+    }
+
+    .banner-img .bottom-right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 0 1rem;
+    }
+
+    .banner-img .centered {
+        position: absolute;
+        top: 50%;
+        /*left: 50%;*/
+        transform: translate(0, -100%);
+    }
+
+    .banner-img .below {
+        position: absolute;
+        bottom: -3rem;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    p.banner-description {
+        font-style: italic;
+        font-size: small;
+        margin-top: -1.5rem !important;
+        text-align: center;
+    }
+    .odi-img-attribution {
+        background-color: #000000;
+        margin:0;
+        padding:0;
+        color:white;
+        a {
+            color:var(--odi-color8);
+        }
+        &.bottom-right {
+            border-bottom-right-radius: 2px;
+        }
+        }
+        &.bottom-left {
+            border-bottom-left-radius: 2px;
+        }
+        &.top-right {
+            border-top-right-radius: 2px;
+        }
+        &.top-right {
+            border-top-right-radius: 2px;
+        }
+    }

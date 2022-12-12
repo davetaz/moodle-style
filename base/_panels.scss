@@ -1,0 +1,76 @@
+.odi-content {
+    --info: var(--odi-color14); // pink
+    --discuss: var(--odi-color11); // orange
+    --reflect: var(--odi-color22); // light blue
+    --practice: var(--odi-color6); // green
+    --journal: var(--odi-color17); // purple
+
+    .panel {
+        background-color: var(--odi-color24);
+        margin: 1rem 0 0 0;
+        padding: var(--padding-main);
+        border-left: 1rem solid black;
+        border-radius: 2px;
+        & > [role='heading'],h1,h2,h3,h4,h5,h6 {
+            font-weight: 400 !important;
+        }
+        /* border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black; */
+
+
+        .info-block, blockquote {
+            //background-color: var(--odi-mono2);
+            background-color: white;
+            color: inherit;
+            margin: var(--spacer-half) 0;
+            border-radius: 2px;
+        }
+        & > [role='heading'],h1,h2,h3,h4,h5,h6 {
+            font-size: 120%;
+            line-height: 100%;
+            margin:0.5rem 0;
+            color:black;
+            
+        }
+        .odi-icon-quote {
+            margin: 0 0 -0.5rem 0;
+        }
+        &:first-child {
+            margin-top:0
+        }
+    }
+
+    .info-block, blockquote {
+        background-color: var(--odi-color24);
+        margin: 1rem 0 0 0;
+        padding: var(--padding-main);
+        border-radius: 2px;
+        [role='heading'],h1,h2,h3,h4,h5,h6 {
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            font-weight: 400 !important;
+            margin:1rem 0;
+            text-transform: none;
+        }
+        .odi-icon-quote {
+            margin: 0 0 -0.5rem 0;
+        }
+    }
+
+    .info {
+        border-color: var(--info);
+    }
+    .discuss {
+        border-color: var(--discuss);
+    }
+    .reflect {
+        border-color: var(--reflect);
+    }
+    .practice, .produce, .enquire {
+        border-color: var(--practice);
+    }
+    .journal {
+        border-color: var(--journal);
+    }
+}

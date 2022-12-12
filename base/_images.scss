@@ -1,0 +1,35 @@
+.odi-content {
+
+    .user_content .thumbnail {
+        border: none;
+        padding: 0 !important;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    figure {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        border: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+
+        img {
+            width: 100%;
+            border-radius: 0;
+            margin: 0 !important;
+        }
+    }
+
+    figcaption {
+        text-align: center;
+        font-size: smaller;
+    }
+
+    figcaption>* {
+        text-align: left;
+    }
+
+}

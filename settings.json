@@ -1,0 +1,17 @@
+{
+	"liveSassCompile.settings.formats": [ {
+        "format": "compressed",
+        "extensionName": ".moodle.min.css",
+        "savePath": "/output/compressed"
+    },
+    {
+        "format": "expanded",
+        "extensionName": ".moodle.css",
+        "savePath": "/output/css"
+    }
+	],
+    "liveSassCompile.settings.excludeList": [ 
+     "**/boost-preset/**",
+     ".vscode/**" 
+]
+}

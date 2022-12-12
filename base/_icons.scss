@@ -1,0 +1,111 @@
+.odi-content {
+
+    .odi-icon:before,
+    blockquote h3:before {
+        font-family: var(--odi-iconfont);
+        font-size: 180%;
+        line-height: 120%;
+        padding-right: 1rem;
+        vertical-align: middle;
+        font-weight: normal;
+
+    }
+
+    .odi-icon-link:before {
+        content: "\e157";
+    }
+
+    .odi-icon-emphasis:before {
+        content: "\e626";
+    }
+
+    .odi-icon-summary:before {
+        content: "\e0ee";
+    }
+
+    .odi-icon-reading:before {
+        content: "\e02f";
+    }
+
+    .odi-icon-quote:before,
+    blockquote .quote-open:before {
+        font-family: "Material Icons";
+        content: "\e244";
+        display: table-row;
+        transform: rotate(-180deg);
+        font-size: 3rem;
+        padding-left: 0;
+    }
+
+    .info-block .odi-icon-quote:before,
+    .panel .odi-icon-quote:before {
+        display: inline-block;
+        transform: rotate(180deg);
+        padding: 5px 0 0 1rem;
+        margin: -5px 0 0 0;
+
+    }
+
+    .odi-icon-quote:before,
+    blockquote .quote-close:after {
+        font-family: "Material Icons";
+        content: "\e244";
+        font-size: 3rem;
+        display: table-row;
+        padding-left: 0;
+
+    }
+
+    .odi-icon-video:before {
+        content: "\e30c";
+    }
+
+    .odi-icon-podcast:before {
+        content: "\f048";
+    }
+    .odi-icon-content:before {
+        content: "\e660";
+    }
+
+    .odi-icon-discuss:before {
+        content: "\e0bf";
+    }
+
+    .odi-icon-reflect:before {
+        content: "\f8ea";
+    }
+
+    .odi-icon-practice:before {
+        content: "\f053";
+    }
+
+    .odi-icon-produce:before {
+        content: "\e745";
+    }
+
+    .odi-icon-enquire:before {
+        content: "\e2db";
+    }
+
+    .odi-icon-journal:before {
+        content: "\ea19";
+    }
+    .odi-icon-download:before {
+        content: "\f090";
+    }
+    .odi-icon-key:before {
+        content: "\e73c";
+    }
+    .odi-icon-block:before {
+        content: "\e14b";
+    }
+    .odi-icon-love:before {
+        content: "\e87d";
+    }
+    .odi-icon-bolt:before {
+        content: "\ea0b";
+    }
+    .odi-icon-token:before {
+        content: "\ea25";
+    }
+}
